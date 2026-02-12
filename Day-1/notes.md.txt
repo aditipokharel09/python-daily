@@ -1,0 +1,36 @@
+# Day 1 Notes
+
+
+Topics covered:
+- Variables and data types
+- Lists, tuples, sets, dictionaries
+- If / elif / else
+- for loop and while loop
+- break statement
+- Basic functions
+
+## Things I found interesting
+- Difference between == and is
+- Lists are mutable, tuples are not
+
+## Confusions
+- When to use set vs list
+
+##things to remember
+- name = "aditi";print (name) #two statements can be written like this also
+- name = "aditi"#two statements can be written like this also print (name)
+- print("kancho" + " is a good dog") #operators can be also used like this
+- -1 finds the last item on the list
+- courses.insert(0, 'art') #to add item in the specific position
+- courses.extend(courses_2) #each individual value is added to the list
+- courses.remove('math')#removes specific item
+- courses.pop()#pop the last item like in stack
+- tuples are immutable cannot be modified
+- sets ( repetations of item is not acknowledged)
+- object identity test if two objects have the same id 
+ which basically means if they're the same object 
+  in the memory. so two object can actually be equal 
+   and not be the same object in memory.
+- print(a is b) #it checks if id(a) is equal to id(b) hence false
+- nums = [1, 2, 3, 4, 5] for num in nums: if num == 3: print('found') #continue even after finding 3
+
