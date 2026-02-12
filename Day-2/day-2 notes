@@ -1,0 +1,20 @@
+1.Mistake in my find_index function
+return -1 is inside the for loop
+Current structure:
+for value in list:
+    if value == target:
+        return i   # OK
+    return -1      #  This executes on the first iteration
+Effect of the mistake:
+The function checks only the first item.
+If the first item is not the target, it immediately returns -1, without checking the rest of the list.
+Conceptual error:
+You’re signaling “not found” too early.
+“Not found” should only be concluded after checking all items, not after the first one.
+
+2. import modules as mn #this can be done to change the name of the module to something shorter.
+
+courses = ['history', 'math', 'physics', 'comp']
+index = mn.find_index(courses, 'math')
+print(index)
+
