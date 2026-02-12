@@ -5,6 +5,8 @@ A daily log of my progress as I master Python and dive into the world of Artific
 ## 📅 Roadmap
 -  **Day 1**: Variables, Conditionals, and Data Structures
 -  **Day 2**: Modules and Package Imports
+-  **Day 3**:Fixed a major typo in github learned the hard way whole code got deleted and everyhting was a messy, didn't give up now back on track.
+-  
 
 
 ## 🚀 Goals
