@@ -1,0 +1,35 @@
+Tuples: The Reliable Containers
+Immutability: Once you create a tuple, you can't change it (no adding or removing items directly).
+
+Syntax: Defined using parentheses ().
+
+Joining: You can combine two tuples using the + operator to create a brand new one.
+
+Unpacking: Use the asterisk * to "catch" multiple items into a list while assigning others to specific variables.
+
+Slicing: Use [start:stop] to grab specific chunks of data. Remember, the "stop" index is not included!.
+
+Sets: The Duplicate Destroyers
+Uniqueness: Sets automatically kick out any duplicate values—perfect for finding unique items in a list.
+
+Unordered: Items don't have a fixed position, so you can't access them by index like set[0].
+
+Adding Data: Use .add() for a single item or .update() for multiple items.
+
+Removing Data: .remove() throws an error if the item is missing, while .discard() stays quiet.
+
+Set Mathematics (Venn Diagram Logic)
+Union: A.union(B) joins everything from both sets.
+
+Intersection: A.intersection(B) finds only the items they have in common.
+
+Difference: A.difference(B) shows items in A that are NOT in B.
+
+Symmetric Difference: A.symmetric_difference(B) gives you everything EXCEPT the overlap.
+
+Essential Comparisons
+List vs. Set: Lists are for ordered sequences where duplicates are okay; Sets are for unordered groups of unique items.
+
+Tuple vs. List: Tuples are faster and "locked" (immutable); Lists are flexible and "unlocked" (mutable).
+
+String Splitting: Using .split() on a string turns it into a list of words, which you can then toss into a set() to count unique vocabulary.

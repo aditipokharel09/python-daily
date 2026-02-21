@@ -1,0 +1,43 @@
+key takeaway:
+List Basics & Setup
+Creation: Use [] for empty lists or [item1, item2] to start with data.
+
+Indexing: Starts at 0. Use [-1] to grab the last item instantly.
+
+Mixed Data: One list can hold strings, numbers, and booleans simultaneously.
+
+Length: Use len(my_list) to see how many items you're working with.
+
+Editing & Growth
+Adding: .append(value) adds to the end; .insert(index, value) puts it exactly where you want.
+
+Updating: Change an item directly with list[index] = new_value.
+
+Joining Strings: '# '.join(list_name) turns a list into a single string separated by your chosen character.
+
+Uppercase: Use .upper() on a specific index to change case: list[0] = list[0].upper().
+
+Slicing & Removing
+Slicing: list[start:stop]—remember the stop index is excluded!
+
+Deleting: * .pop() removes and returns an item.
+
+del kills a specific index or the whole variable.
+
+.clear() empties the list but keeps the "container."
+
+Organizing: .sort() puts things in order; .reverse() flips them.
+
+Math & Logic (Level 2)
+Stats: Use min(), max(), and sum() for quick calculations.
+
+Average: sum(list) / len(list).
+
+Median: Sort first! For even lists, average the two middle items; for odd, take the center.
+
+Unpacking: Use a, b, *others = my_list to grab the first few items and dump the rest into a new list.
+
+Copying & Merging
+Merging: Use the + operator to fuse two lists into one.
+
+Cloning: Always use .copy(). If you use =, changing one list will mess up the other!
