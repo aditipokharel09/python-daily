@@ -1,0 +1,42 @@
+Dictionaries
+Creation: Use dog = {} for an empty dictionary or curly braces with pairs like {'key': 'value'} for initialized ones.
+
+Adding Data: Add new items using the syntax dictionary['new_key'] = value.
+
+Length: Use len(student) to get the total number of key-value pairs.
+
+Accessing: Retrieve values using the key name, e.g., student['skills'].
+
+Type Checking: Use type() to verify if a value is a list, string, or integer.
+
+Modification: Use .extend() or .append() to update lists stored inside dictionary values.
+
+Extraction: .keys() gets all labels, .values() gets all data, and .items() gets pairs as tuples.
+
+Deletion: Use del dictionary['key'] for specific items or del dictionary to wipe the whole object from memory.
+
+Conditionals
+Input: input() always returns a string; use int() to convert it for math or age checks.
+
+if/elif/else: Use if for the first check, elif for additional specific conditions, and else as the final "catch-all."
+
+Comparison: Use standard operators: > (greater), < (less), == (equal), and >= (greater or equal).
+
+Shorthand If: You can write value = "A" if condition else "B" for quick logic.
+
+List Membership: Use if item in list: to check for existence before adding or modifying data.
+
+Loops
+Range Function: range(stop) starts at 0; range(start, stop, step) gives you full control over the sequence.
+
+Inclusive/Exclusive: The stop value in a range is never included in the output.
+
+While Loops: Requires a manual counter and an update (like count += 1) to avoid infinite loops.
+
+String Multiplication: Printing '#' * i is a fast way to create patterns without nested loops.
+
+Nested Loops: Use an inner loop inside an outer loop to create 2D structures like grids.
+
+Step Parameter: Use a step of 2 in a range to easily filter for even or odd numbers.
+
+Accumulators: Initialize a variable at 0 before a loop to calculate sums (e.g., total += i).
