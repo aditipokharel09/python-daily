@@ -1,0 +1,48 @@
+SyntaxError: The Rules of the Language
+What I learned: Python 3 requires parentheses for the print() function. Unlike Python 2, it’s a function, not a statement.
+
+My mistake: I tried to use the old-school print 'hello world' syntax without brackets.
+
+How I corrected it: I wrapped the string in parentheses: print('hello world').
+
+NameError: The "Who Is That?" Error
+What I learned: I can’t use a variable until I have explicitly defined it and assigned it a value.
+
+My mistake: I asked Python to print age before I had even told Python what age was.
+
+How I corrected it: I defined the variable first with age = 25, and then the print command worked perfectly.
+
+IndexError: Counting Beyond the Limit
+What I learned: Python lists are zero-indexed, meaning the first item is at 0. If a list has 5 items, the last index is 4.
+
+My mistake: I tried to access numbers[5]. Since the list only goes from 0 to 4, index 5 doesn't exist.
+
+How I corrected it: I need to stay within the range of the list length (e.g., numbers[4] would have worked for the last item).
+
+ModuleNotFoundError: The Typo Trap
+What I learned: Python is very literal. Even a single extra letter in an import statement will cause it to fail.
+
+My mistake: I tried to import maths (with an 's'), which isn't a standard library name.
+
+How I corrected it: I used the correct, singular module name: import math.
+
+AttributeError: Case Sensitivity Matters
+What I learned: Once a module is imported, I have to use the exact names of the constants or functions inside it. Python is case-sensitive!
+
+My mistake: I tried to access math.PI in all caps.
+
+How I corrected it: I switched to lowercase math.pi, which is how it's defined in the library.
+
+KeyError: Dictionary Mismatches
+What I learned: When looking up a value in a dictionary using a key, that key must match the original definition exactly—including spelling.
+
+My mistake: I tried to access users['county'], but I had originally defined the key as 'country'.
+
+How I corrected it: I fixed the spelling to users['country'] to match my dictionary definition.
+
+TypeError: Mixing Apples and Oranges
+What I learned: Python won’t automatically "guess" how to add a number to a string. It’s a "strongly typed" language, so I have to be explicit.
+
+My mistake: I tried to add an integer (4) to a string ('3').
+
+How I corrected it: I used Type Casting. I converted the string to an integer using int('3') (resulting in 7) or a float using float('3') (resulting in 7.0) before performing the addition.
