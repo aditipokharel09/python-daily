@@ -1,0 +1,21 @@
+Python Exceptions: Common Errors I Encountered
+Errors aren't failures; they’re just Python telling me exactly what went wrong. Here’s what I practiced today:
+
+ImportError: I learned that Python is picky about names. Trying to import power from the math module failed because the correct name is actually pow.
+
+ValueError: I saw this when I tried to force a string with a letter ('12a') into an integer. Python only converts strings that look like actual numbers.
+
+ZeroDivisionError: A classic math rule! I confirmed that Python will stop me immediately if I try to divide any number by zero.
+
+Working with the Datetime Module
+I explored how to capture and manipulate time, which is essential for logging and scheduling in real-world apps.
+
+Inspecting the Module: I used dir(datetime) to see all the available tools, like date, time, and timedelta.
+
+Current Time: I used datetime.now() to pull the exact moment from my system clock.
+
+Data Extraction: I practiced pulling specific "parts" of a date, such as just the day, month, or year, using object attributes.
+
+Timestamps: I learned that a timestamp represents the total number of seconds since January 1, 1970—super useful for calculating intervals.
+
+Manual Objects: I created a specific date object manually by passing integers into datetime(year, month, day).
